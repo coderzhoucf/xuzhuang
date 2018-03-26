@@ -1,0 +1,193 @@
+@font-face{
+    font-family: '思源黑体 CN Light';
+    src : url('../font/SourceHanSansCN-Light.otf');
+}
+html{
+    width: 4320px;
+    height: 1920px;
+    overflow: hidden;
+}
+body{
+    width: 4320px;
+    height: 1920px;
+    position: relative;
+    overflow: hidden;
+    background-color: #d5d7d8;
+}
+.firstPage{
+    width: 4320px;
+    height:  1920px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+    background: url("../images/indexBg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.firstPage .industryA .industryABtn{
+    width: 650px;
+    height: 650px;
+    background: url("../images/industryA.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 2160px;
+    margin-left: -325px;
+    top: 180px;
+}
+.firstPage .industryB .industryBBtn{
+    width: 650px;
+    height: 650px;
+    background: url("../images/industryB.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 1080px;
+    margin-left: -325px;
+    bottom: 180px;
+}
+.firstPage .industryC .industryCBtn{
+    width: 650px;
+    height: 650px;
+    background: url("../images/industryC.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left:3240px;
+    margin-left: -325px;
+    bottom: 180px;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    display: none;
+    /*opacity: 0;*/
+    background-color: rgba(0,0,0,0.6);
+}
+.info .top{
+    width: 3600px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1800px;
+    top: 90px;
+
+}
+.info .top h3{
+    width: 2000px;
+    height:100px;
+    line-height: 100px;
+    font-size: 100px;
+    font-weight: lighter;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "思源黑体 CN Light";
+}
+.info .top .close{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../images/close.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.info .swiper-container{
+    width: 3600px;
+    height: 1650px;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    margin-left: -1800px;
+    background-color: white;
+}
+.info .swiper-container .swiper-wrapper{
+    width: 3600px;
+    height: 1650px;
+    position: absolute;
+}
+
+.info .swiper-container .contentWrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.info .swiper-container .contentWrap .pic{
+    width: 1100px;
+    height:1300px;
+    position: absolute;
+    top: 50%;
+    margin-top: -650px;
+    left: 100px;
+}
+.info .pic image{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 1100px;
+    max-height: 1300px;
+    transform: translateX(-50%) translateY(-50%);
+}
+.contentWrap .content{
+    width: 1900px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    margin-top: -500px;
+    right: 260px;
+}
+.contentWrap .content h4{
+    width: 1900px;
+    height: 180px;
+    position: relative;
+    margin-bottom: 100px;
+    font-family: "思源黑体 CN Light";
+    line-height: 180px;
+    font-size: 90px;
+}
+.contentWrap .content .infoContainer{
+    width: 1900px;
+    height: 720px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.contentWrap .content .infoContainer p{
+    width: 1900px;
+    height: auto;
+    line-height: 80px;
+    font-size: 50px;
+    font-family: "思源黑体 CN Light";
+}
+
+.info .swiper-button-prev{
+    width: 124px;
+    height: 124px;
+    position: absolute;
+    background: url("../images/pre.png") no-repeat;
+    background-size: 100% 100%;
+    left: 170px;
+    top: 900px;
+}
+.info .swiper-button-next{
+    width: 124px;
+    height: 124px;
+    position: absolute;
+    background: url("../images/next.png") no-repeat;
+    background-size: 100% 100%;
+    right: 170px;
+    top: 900px;
+}
+
+#webGL{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
